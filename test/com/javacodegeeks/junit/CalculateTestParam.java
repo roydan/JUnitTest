@@ -16,6 +16,13 @@ public class CalculateTestParam {
 	private int first;
 	private int second;
 
+	/**
+	 * CalculateTestParam
+	 * @param	int expectedResult
+	 * @param	int firstNumber
+	 * @param	int secondNumber
+	 * @return	void
+	 */
 	public CalculateTestParam(int expectedResult, int firstNumber, int secondNumber) {
 		this.expected = expectedResult;
 		this.first = firstNumber;
