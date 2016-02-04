@@ -1,6 +1,6 @@
 # Built application files
-*.apk
-*.ap_
+#*.apk
+#*.ap_
 
 # Files for the Dalvik VM
 *.dex
@@ -30,3 +30,6 @@ proguard/
 
 # Android Studio captures folder
 captures/
+
+# ignore all files ending with ~
+*~

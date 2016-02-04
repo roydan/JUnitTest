@@ -23,7 +23,7 @@ public class CalculateTestParam {
 	}
 
 	@Parameters
-	public static Collection addedNumbers() {
+	public static Collection<Integer[]> addedNumbers() {
 		return Arrays.asList(new Integer[][] { { 3, 1, 2 }, { 5, 2, 3 },
 				{ 7, 3, 4 }, { 9, 4, 5 }, });
 	}
